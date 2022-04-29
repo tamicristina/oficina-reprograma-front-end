@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Abel;
+}
+
+.banner-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../img/img-banner.jpeg)center no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #ffb7db;
+  text-align: center;
+  padding-top: 20rem;
+}
+
+.div-banner{
+  padding: 20px 0px 45px;
+}
+
+.titulo-banner {
+  font-size: 40px;
+  color:  white;
+  text-transform: uppercase;
+}
+
+.subtitulo-banner {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+}
+
+.ancora-sobre-mim {
+  text-decoration: none;
+  font-size: 25px;
+  border-style: dotted;
+  border-radius: 30px;
+  padding: 20px 50px;
+  color: #ffb7db;
+  font-weight: bold;
+  height: 20px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+.ancora-sobre-mim:hover {
+  background-color: white;
+}
+
+.titulo-sobre-mim {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffb7db;
+}
+
+.section-imagem {
+  display: flex;
+  width: 150px;
+  height: 250px;
+  border-radius: 10px;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #ffb7db;
+}
+
+.section-div-imagem {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+
+}
+
+.div-sobre-mim {
+  display: flex;
+  justify-content: space-around;
+  font-family: Abel;
+  padding: 30px 15px 15px;
+  
+}
+
+.destaque-nome{
+  color:  #ffb7db;
+  font-weight: bold;
+}
+
+.div-lado-esquerdo {
+  display: flex;
+  flex-direction:column;
+  font-size: 20px;
+  padding-left: 5px;
+  width: 40%;
+  text-align: justify;
+
+}
+
+.titulo-descricao-sobre-mim{
+  text-align: center;
+}
+.span-ancora{
+  margin-top:20px ;
+}
+.ancora-conheca-meu-site{
+  background-color:  #ffb7db;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+.ancora-conheca-meu-site:hover{
+  background-color: #b1b1b1;
+
+}
+
+
+ .div-lado-direito {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+  
+}
+
+
+.lista-sobre-mim {
+  flex-direction: column;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.titulo-section-redes-sociais{
+text-align: center;
+color: #ffb7db;
+font-size: 30px;
+
+}
+.section-redes-sociais {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
+  margin-bottom: 30px;
+} 
+.card-redes-sociais {
+  background-color: #ffb7db;
+  border-radius: 20px;
+  font-family: Abel;
+  width:150px;
+  height: 150px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 30%);
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center; 
+}
+
+.icone-rede-social{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card-redes-sociais:hover{
+  background-color: #b1b1b1;
+
+}
+
+.nome-rede-social{
+  font-size: 22px;
+  font-weight: bold;  
+}
+
+.nome-usuario-rede-social{
+font-size: 16px;
+}
+
+.footer-copyright{
+  text-align: center;
+  font-size:15px;
+ 
+}
